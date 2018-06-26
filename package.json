@@ -16,17 +16,11 @@
     "cssnano": "^3.10.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-cache": "^1.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-jshint": "^2.1.0",
     "gulp-newer": "^1.4.0",
     "gulp-notify": "^3.0.0",
     "gulp-postcss": "^7.0.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.0",
-    "jshint": "^2.9.5"
+    "gulp-sass": "^4.0.1"
   },
   "scripts": {}
 }

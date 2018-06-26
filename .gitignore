@@ -28,4 +28,5 @@ Thumbs.db
 .sass-cache
 *.map
 _site
+build
 node_modules

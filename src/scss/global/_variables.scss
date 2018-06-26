@@ -15,19 +15,14 @@ $bp-screen-xl:                  1280px;
 // ----------------------------
 
 // colors - grayscale
-$black:                         #111;
+$black:                         #4A4A4A;
 $black-t:                       #000; // true black
-$white:                         #fafafa;
-$white-warm:                    #ede8e2;
+$white:                         #f5f5f5;
 $white-t:                       #fff; // true white
-$gray:                          #595959; // accessible on #f3f3f3
-$gray-d1:                       #333;
-$gray-d2:                       #222;
-$gray-l1:                       #767676; // accessible on #fff
-$gray-l2:                       #ccc;
-$gray-l3:                       #dedede;
-$gray-l4:                       #f3f3f3;
-$gray-warm:                     #c6b6a3;
+$gray:                          #303030; // accessible on #f5f5f5
+$gray-d1:                       #5a5a5a;
+$gray-l1:                       #979797; 
+$gray-l3:                       #d8d8d8;
 $transparent:                   rgba(0, 0, 0, 0); // transparent black
 $transparent-w:                 rgba(255,255,255,0); // transparent white
 $glare:                         rgba($white-t, .3);
@@ -36,17 +31,16 @@ $smoke:                         rgba($gray, .3);
 $wisp:                          rgba($gray, .1);
 
 // colors - named
-$red:                           rgb(178, 6, 16);
-$yellow:                        rgb(253, 188, 86);
-$green:                         rgb(37, 184, 90);
-$blue:                          rgb(0, 121, 188);
-$pink:                          rgb(203, 89, 141);
+$red:                           #F56B6B;
+$purple:                        #9D7DAE;
+$green:                         #7CAF5F;
+$blue:                          #128EAD;
+$yellow:                        #F2A466;
 
 // colors - brand
-$brand-primary:                 $blue;
-$brand-primary-accent:          rgb(14, 166, 236);
-$brand-secondary:               $pink;
-$brand-secondary-accent:        rgb(242, 108, 170);
+$brand-primary:                 $black;
+$brand-primary-accent:          $red;
+$brand-secondary:               $purple;
 
 // colors - utilities
 $success:                       $green;
@@ -59,8 +53,8 @@ $informational:                 $gray-l3;
 // #TYPOGRAPHY
 // ----------------------------
 
-$base-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$alt-font: 'Georgia', Cambria, 'Times New Roman', Times, serif;
+$base-font: 'Raleway', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$alt-font: 'Roboto slab', Cambria, 'Times New Roman', Times, serif;
 
 // font-sizes and line-heights
 $fs-xxxsmall: .9rem;
